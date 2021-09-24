@@ -11,10 +11,10 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     make \
-    busybox \
     build-essential \
     nodejs \
     npm \
+    python3 \
  && mkdir -p /home/stuff
 
 # Set work dir:
