@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm \
     python3 \
+    tmate \
  && mkdir -p /home/stuff
 
 # Set work dir:
