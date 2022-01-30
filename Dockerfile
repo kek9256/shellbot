@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     npm \
     python3 \
     tmate \
+    p7zip-full \
  && mkdir -p /home/stuff
 
 # Set work dir:
